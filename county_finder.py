@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-sheet1 = pd.read_excel(r"C:\Users\PMLS\PycharmProjects\databases\zip_code_database.xlsx")  # File with zipcodes, city, state, and county
+sheet1 = pd.read_excel(r"zip_code_database.xlsx")  # File with zipcodes, city, state, and county
 sheet2 = pd.read_excel("Book1.xlsx")  # File with address, city, state, and zipcode
 
 sheet1['City'] = sheet1['City']
